@@ -32,7 +32,7 @@ Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](htt
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://adventofcode.com/2024/day/1" target="_blank">Day 1</a></td>
+            <td><a href="https://adventofcode.com/2024/day/1">Day 1</a></td>
             <td>00:01:12</td>
             <td>55</td>
             <td>46</td>

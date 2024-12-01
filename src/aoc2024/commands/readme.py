@@ -69,7 +69,7 @@ def readme() -> None:
 
         rows += f"""
         <tr>
-            <td><a href="https://adventofcode.com/2024/day/{day}" target="_blank">Day {day}</a></td>
+            <td><a href="https://adventofcode.com/2024/day/{day}">Day {day}</a></td>
             <td>{part1_time}</td>
             <td>{part1_rank}</td>
             <td>{part1_score}</td>

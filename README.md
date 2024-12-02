@@ -43,6 +43,20 @@ Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](htt
             <td>122</td>
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day01">Link</a></td>
         </tr>
+        <tr>
+            <td><a href="https://adventofcode.com/2024/day/2">Day 2</a>*</td>
+            <td>00:05:03</td>
+            <td>518</td>
+            <td>0</td>
+            <td>00:07:01</td>
+            <td>347</td>
+            <td>0</td>
+            <td>74</td>
+            <td>122</td>
+            <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day02">Link</a></td>
+        </tr>
     </tbody>
 </table>
+
+_* Advent of Code had server issues at the time of this day's release._
 <!-- results-end -->

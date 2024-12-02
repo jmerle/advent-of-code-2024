@@ -6,7 +6,7 @@ from aoc2024.commands.common import PROJECT_ROOT, get_day_directory, get_request
 
 OVERALL_LEADERBOARD_RANKS = [
     39,  # Day 1
-    None,  # Day 2
+    74,  # Day 2
     None,  # Day 3
     None,  # Day 4
     None,  # Day 5
@@ -31,6 +31,8 @@ OVERALL_LEADERBOARD_RANKS = [
     None,  # Day 24
     None,  # Day 25
 ]
+
+SERVER_ISSUE_DAYS = {2}
 
 
 @click.command()
@@ -69,7 +71,7 @@ def readme() -> None:
 
         rows += f"""
         <tr>
-            <td><a href="https://adventofcode.com/2024/day/{day}">Day {day}</a></td>
+            <td><a href="https://adventofcode.com/2024/day/{day}">Day {day}</a>{"*" if day in SERVER_ISSUE_DAYS else ""}</td>
             <td>{part1_time}</td>
             <td>{part1_rank}</td>
             <td>{part1_score}</td>
@@ -109,6 +111,8 @@ def readme() -> None:
         {rows.lstrip()}
     </tbody>
 </table>
+
+_* Advent of Code had server issues at the time of this day's release._
 <!-- results-end -->
     """.strip()
 

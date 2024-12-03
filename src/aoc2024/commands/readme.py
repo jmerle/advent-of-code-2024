@@ -7,7 +7,7 @@ from aoc2024.commands.common import PROJECT_ROOT, get_day_directory, get_request
 OVERALL_LEADERBOARD_RANKS = [
     39,  # Day 1
     74,  # Day 2
-    None,  # Day 3
+    69,  # Day 3
     None,  # Day 4
     None,  # Day 5
     None,  # Day 6

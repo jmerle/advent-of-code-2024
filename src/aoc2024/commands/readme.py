@@ -8,7 +8,7 @@ OVERALL_LEADERBOARD_RANKS = [
     39,  # Day 1
     74,  # Day 2
     69,  # Day 3
-    None,  # Day 4
+    91,  # Day 4
     None,  # Day 5
     None,  # Day 6
     None,  # Day 7

@@ -2,7 +2,7 @@
 
 This repository contains my [Advent of Code 2024](https://adventofcode.com/2024) solutions in Python. I focus on solving speed over code quality, so the code in here may be a bit sloppy.
 
-Although the overall leaderboard has become a battle of LLMs, I see Advent of Code as a challenge at how fast I can be on my own, and am thus not using any LLMs.
+Although the overall leaderboard has become a battle of LLMs, I see Advent of Code as a challenge at how fast I can be on my own, and am thus not using any LLMs myself.
 
 Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](https://github.com/jmerle/advent-of-code-2022) [2021](https://github.com/jmerle/advent-of-code-2021) [2020](https://github.com/jmerle/advent-of-code-2020)
 

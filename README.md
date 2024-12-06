@@ -2,6 +2,8 @@
 
 This repository contains my [Advent of Code 2024](https://adventofcode.com/2024) solutions in Python. I focus on solving speed over code quality, so the code in here may be a bit sloppy.
 
+Although the overall leaderboard has become a battle of LLMs, I see Advent of Code as a challenge at how fast I can be on my own, and am thus not using any LLMs.
+
 Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](https://github.com/jmerle/advent-of-code-2022) [2021](https://github.com/jmerle/advent-of-code-2021) [2020](https://github.com/jmerle/advent-of-code-2020)
 
 ## Results
@@ -12,21 +14,16 @@ Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](htt
     <thead>
         <tr>
             <th></th>
-            <th colspan="3">Part 1</th>
-            <th colspan="3">Part 2</th>
-            <th colspan="2">Overall leaderboard</th>
+            <th colspan="2">Part 1</th>
+            <th colspan="2">Part 2</th>
             <th></th>
         </tr>
         <tr>
             <th>Day</th>
             <th>Time</th>
             <th>Rank</th>
-            <th>Score</th>
             <th>Time</th>
             <th>Rank</th>
-            <th>Score</th>
-            <th>Rank</th>
-            <th>Score</th>
             <th>Code</th>
         </tr>
     </thead>
@@ -35,61 +32,49 @@ Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](htt
             <td><a href="https://adventofcode.com/2024/day/1">Day 1</a></td>
             <td>00:01:12</td>
             <td>55</td>
-            <td>46</td>
             <td>00:01:43</td>
             <td>25</td>
-            <td>76</td>
-            <td>39</td>
-            <td>122</td>
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day01">Link</a></td>
         </tr>
         <tr>
             <td><a href="https://adventofcode.com/2024/day/2">Day 2</a>*</td>
             <td>00:05:03</td>
             <td>518</td>
-            <td>0</td>
             <td>00:07:01</td>
             <td>347</td>
-            <td>0</td>
-            <td>74</td>
-            <td>122</td>
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day02">Link</a></td>
         </tr>
         <tr>
             <td><a href="https://adventofcode.com/2024/day/3">Day 3</a></td>
             <td>00:01:15</td>
             <td>79</td>
-            <td>22</td>
             <td>00:03:03</td>
             <td>83</td>
-            <td>18</td>
-            <td>69</td>
-            <td>162</td>
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day03">Link</a></td>
         </tr>
         <tr>
             <td><a href="https://adventofcode.com/2024/day/4">Day 4</a></td>
             <td>00:19:44</td>
             <td>4012</td>
-            <td>0</td>
             <td>00:23:26</td>
             <td>2295</td>
-            <td>0</td>
-            <td>91</td>
-            <td>162</td>
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day04">Link</a></td>
         </tr>
         <tr>
             <td><a href="https://adventofcode.com/2024/day/5">Day 5</a></td>
             <td>00:04:56</td>
             <td>350</td>
-            <td>0</td>
             <td>00:07:57</td>
             <td>278</td>
-            <td>0</td>
-            <td>>100</td>
-            <td>162</td>
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day05">Link</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://adventofcode.com/2024/day/6">Day 6</a></td>
+            <td>00:04:26</td>
+            <td>242</td>
+            <td>00:12:12</td>
+            <td>235</td>
+            <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day06">Link</a></td>
         </tr>
     </tbody>
 </table>

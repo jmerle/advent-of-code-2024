@@ -116,6 +116,14 @@ Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](htt
             <td>1259</td>
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day11">Link</a></td>
         </tr>
+        <tr>
+            <td><a href="https://adventofcode.com/2024/day/12">Day 12</a></td>
+            <td>00:08:12</td>
+            <td>520</td>
+            <td>00:14:32</td>
+            <td>53</td>
+            <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day12">Link</a></td>
+        </tr>
     </tbody>
 </table>
 

@@ -37,7 +37,7 @@ Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](htt
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day01">Link</a></td>
         </tr>
         <tr>
-            <td><a href="https://adventofcode.com/2024/day/2">Day 2</a>*</td>
+            <td><a href="https://adventofcode.com/2024/day/2">Day 2</a><sup>1,2</sup></td>
             <td>00:05:03</td>
             <td>518</td>
             <td>00:07:01</td>
@@ -124,8 +124,17 @@ Previous years: [2023](https://github.com/jmerle/advent-of-code-2023) [2022](htt
             <td>53</td>
             <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day12">Link</a></td>
         </tr>
+        <tr>
+            <td><a href="https://adventofcode.com/2024/day/13">Day 13</a><sup>1</sup></td>
+            <td>00:56:10</td>
+            <td>5723</td>
+            <td>00:59:54</td>
+            <td>2800</td>
+            <td><a href="https://github.com/jmerle/advent-of-code-2024/tree/master/src/aoc2024/days/day13">Link</a></td>
+        </tr>
     </tbody>
 </table>
 
-_* Advent of Code had server issues at the time of this day's release._
+_<sup>1</sup> I started working on this day's parts late (i.e. not at the time of part 1's release)._  
+_<sup>2</sup> Advent of Code had server issues at the time of this day's release._
 <!-- results-end -->

@@ -8,3 +8,6 @@ trim_trailing_whitespace = true
 
 [*.{md,txt}]
 trim_trailing_whitespace = false
+
+[src/aoc2024/commands/readme.py]
+trim_trailing_whitespace = false

@@ -4,6 +4,7 @@ import click
 
 from aoc2024.commands.common import PROJECT_ROOT, get_day_directory, get_requests_session
 
+LATE_DAYS = {2, 13}
 SERVER_ISSUE_DAYS = {2}
 
 
@@ -35,9 +36,20 @@ def readme() -> None:
 
         day_directory = get_day_directory(day)
 
+        sups = []
+        if day in LATE_DAYS:
+            sups.append(1)
+        if day in SERVER_ISSUE_DAYS:
+            sups.append(2)
+
+        if len(sups) > 0:
+            sups = "<sup>" + ",".join(map(str, sups)) + "</sup>"
+        else:
+            sups = ""
+
         rows += f"""
         <tr>
-            <td><a href="https://adventofcode.com/2024/day/{day}">Day {day}</a>{"*" if day in SERVER_ISSUE_DAYS else ""}</td>
+            <td><a href="https://adventofcode.com/2024/day/{day}">Day {day}</a>{sups}</td>
             <td>{part1_time}</td>
             <td>{part1_rank}</td>
             <td>{part2_time}</td>
@@ -69,7 +81,8 @@ def readme() -> None:
     </tbody>
 </table>
 
-_* Advent of Code had server issues at the time of this day's release._
+_<sup>1</sup> I started working on this day's parts late (i.e. not at the time of part 1's release)._  
+_<sup>2</sup> Advent of Code had server issues at the time of this day's release._
 <!-- results-end -->
     """.strip()
 

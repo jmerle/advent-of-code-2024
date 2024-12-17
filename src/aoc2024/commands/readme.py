@@ -4,7 +4,7 @@ import click
 
 from aoc2024.commands.common import PROJECT_ROOT, get_day_directory, get_requests_session
 
-LATE_DAYS = {2, 13}
+LATE_DAYS = {2, 13, 17}
 SERVER_ISSUE_DAYS = {2}
 
 
@@ -81,7 +81,7 @@ def readme() -> None:
     </tbody>
 </table>
 
-_<sup>1</sup> I started working on this day's parts late (i.e. not at the time of part 1's release)._  
+_<sup>1</sup> I started late on this day's parts (i.e. not at the time of part 1's release)._  
 _<sup>2</sup> Advent of Code had server issues at the time of this day's release._
 <!-- results-end -->
     """.strip()

@@ -4,7 +4,7 @@ import click
 
 from aoc2024.commands.common import PROJECT_ROOT, get_day_directory, get_requests_session
 
-LATE_DAYS = {2, 13, 17}
+LATE_DAYS = {2, 13, 17, 25}
 SERVER_ISSUE_DAYS = {2}
 
 
